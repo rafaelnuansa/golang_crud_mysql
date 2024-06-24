@@ -27,17 +27,11 @@ Sebelum menjalankan proyek ini, pastikan Anda telah menginstal:
     cd backend-api
     ```
 
-2. **Instal dependensi:**
-
-    ```bash
-    go mod tidy
-    ```
-
-3. **Siapkan database MySQL:**
+2. **Siapkan database MySQL:**
 
     Buat database bernama `db_go_api` dan pengguna dengan akses ke dalamnya. Perbarui paket `models` untuk menggunakan kredensial MySQL Anda.
 
-4. **Jalankan aplikasi:**
+3. **Jalankan aplikasi:**
 
     ```bash
     go run main.go
