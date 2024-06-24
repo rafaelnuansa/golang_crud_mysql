@@ -29,7 +29,7 @@ Sebelum menjalankan proyek ini, pastikan Anda telah menginstal:
 
 2. **Siapkan database MySQL:**
 
-    Buat database bernama `db_go_api` dan pengguna dengan akses ke dalamnya. Perbarui paket `models` untuk menggunakan kredensial MySQL Anda.
+    Buat database bernama `db_go_api` dan pengguna dengan akses ke dalamnya. Perbarui paket `models/setup.go` untuk menggunakan kredensial MySQL Anda.
 
 3. **Jalankan aplikasi:**
 
